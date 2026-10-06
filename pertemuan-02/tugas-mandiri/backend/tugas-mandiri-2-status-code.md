@@ -22,3 +22,12 @@ Tidak. Error HTTP dibagi dua kelompok:
 5xx (server error): baru di sini server yang bermasalah, misalnya 500, 502, 503, atau 504.
 
 Jadi 404 atau 403 bukan tanda server rusak, melainkan tanda server berfungsi dan menjawab bahwa request tidak bisa dipenuhi.
+
+## Screenshot hasil percobaan mandiri 2
+![200](./Hasilujicoba/200.png)
+![201](./Hasilujicoba//201.png)
+![400](./Hasilujicoba//400.png)
+![401](./Hasilujicoba//401.png)
+![403](./Hasilujicoba//403.png)
+![404](./Hasilujicoba//404.png)
+![500](./Hasilujicoba//500.png)
