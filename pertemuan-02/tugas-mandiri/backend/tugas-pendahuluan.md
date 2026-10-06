@@ -161,10 +161,3 @@ Kuncinya: `id` adalah identitas unik post, sedangkan `userId` adalah atribut yan
 | **PUT** | `/posts/1` | `200 OK` | Objek pengganti dengan `id: 1` | Mengganti seluruh data. Field yang tidak dikirim hilang. |
 | **PATCH** | `/posts/1` | `200 OK` | Objek lengkap dengan field yang diubah | Hanya mengubah field yang dikirim |
 | **DELETE** | `/posts/1` | `200 OK` | `{}` | Menghapus data |
-
-### Catatan penting
-
-- **PUT vs PATCH:** PUT mengirim representasi lengkap, sedangkan PATCH cukup mengirim bagian yang berubah, misalnya `{ "title": "baru" }`.
-- **Idempoten:** GET, PUT, dan DELETE aman diulang dengan hasil akhir sama. POST tidak idempoten, karena setiap pemanggilan membuat data baru.
-- **Data tidak benar-benar berubah.** JSONPlaceholder adalah *fake API*. Server hanya mensimulasikan respons, jadi setelah POST, `GET /posts/101` tetap `404`, dan setelah DELETE, `GET /posts/1` tetap mengembalikan data.
-- Pada API sungguhan, DELETE sering mengembalikan `204 No Content`, sedangkan JSONPlaceholder memakai `200` dengan body `{}`.
