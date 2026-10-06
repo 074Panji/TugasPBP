@@ -6,3 +6,9 @@
 | 4 | PATCH | `/patch` | JSON/body | 200 | Berhasil mengubah sebagian data |
 | 5 | DELETE | `/delete` | - | 200 | Berhasil menghapus data |
 
+## Screenshot hasil percobaan
+![GET](./GET.png)
+![POST](./POST.png)
+![PUT](./PUT.png)
+![PATCH](./PATCH.png)
+![DELETE](./DELETE.png)
