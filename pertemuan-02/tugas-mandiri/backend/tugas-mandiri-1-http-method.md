@@ -7,8 +7,8 @@
 | 5 | DELETE | `/delete` | - | 200 | Berhasil menghapus data |
 
 ## Screenshot hasil percobaan
-![GET](./GET.png)
-![POST](./POST.png)
-![PUT](./PUT.png)
-![PATCH](./PATCH.png)
-![DELETE](./DELETE.png)
+![GET](./Hasilujicoba/GET.png)
+![POST](./Hasilujicoba//POST.png)
+![PUT](./Hasilujicoba//PUT.png)
+![PATCH](./Hasilujicoba//PATCH.png)
+![DELETE](./Hasilujicoba//DELETE.png)
